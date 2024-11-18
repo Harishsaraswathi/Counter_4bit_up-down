@@ -1,4 +1,4 @@
-# Counter_4bit_up-down
+#Exp-2:Counter_4bit_up-down
 
 ## Aim:
 
@@ -28,6 +28,8 @@ The output is Counter which is 4 bit in size.
 
 ## Fig 1: 4 Bit Up/Down Counter
 
+![Screenshot (296)](https://github.com/user-attachments/assets/bb6ec760-67ec-459f-bf89-7d57676fb42e)
+
 ## Creating a Work space :
 
 	Create a folder in your name (Note: Give folder name without any space) and Create a new sub-Directory name it as Exp2 or counter_design for the Design and open a terminal from the Sub-Directory.
@@ -45,6 +47,7 @@ Functional Simulation:
 
 ## Fig 2: Invoke the Cadence Environment
 
+![Screenshot (298)](https://github.com/user-attachments/assets/0199a9f1-6e7c-482b-9c46-f8fc6641d7a7)
 
 ## Creating Source Code:
 
@@ -77,11 +80,15 @@ It will invoke the nclaunch window for functional simulation we can compile,elab
 
 ## Fig 3: Setting Multi-step simulation
 
+![Screenshot (301)](https://github.com/user-attachments/assets/45295213-b188-41e8-bd1d-e6ffdbf00dd8)
+
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure
 
 Click the cds.lib file and save the file by clicking on Save option
 
 ## Fig 4: cds.lib file Creation
+
+![Screenshot (299)](https://github.com/user-attachments/assets/1a2876bd-e334-4379-a350-df044d8c02b8)
 
 	Save cds.lib file and select the correct option for cds.lib file format based on the  HDL Language and Libraries used.
 
@@ -90,6 +97,8 @@ Click the cds.lib file and save the file by clicking on Save option
 	We are simulating verilog design without using any libraries
 
 ## Fig 5: Selection of Don’t include any libraries
+
+![Screenshot (300)](https://github.com/user-attachments/assets/b9c28360-2424-4412-b156-f770eff35291)
 
 	A Click “OK” in the “nclaunch: Open Design Directory” window
 
@@ -100,6 +109,8 @@ Click the cds.lib file and save the file by clicking on Save option
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
 
 ## Fig 6: Nclaunch Window
+
+![Screenshot (302)](https://github.com/user-attachments/assets/ca463d86-3b26-4e53-a664-b93f3d8a5e4b)
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation.
 
@@ -124,6 +135,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
 
 ## Fig 7: Compiled database in worklib
+
+![Screenshot (303)](https://github.com/user-attachments/assets/97fc1fa4-fc98-44f9-9ffc-e4c98b188e5d)
 
 	After compilation it will come under worklib you can see in right side window
 
@@ -154,6 +167,8 @@ It contains statements that map logical library names to their physical director
 
 ## Fig 8: Elaboration Launch Option
 
+![Screenshot (304)](https://github.com/user-attachments/assets/58514f81-2e4c-4bf5-9563-2717e5b6915d)
+
 ### Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour. 
 
 	Inputs: Compiled and Elaborated top level module name 
@@ -166,7 +181,11 @@ It contains statements that map logical library names to their physical director
 
 ## Fig 9: Design Browser window for simulation
 
+![Screenshot (305)](https://github.com/user-attachments/assets/815be43a-d33f-4e70-885d-1b3c6bd81462)
+
 ## Fig 10: Simulation Waveform Window
+
+![Screenshot (306)](https://github.com/user-attachments/assets/8dd2a678-bbc5-4f89-8750-91eed12d857f)
 
 ## Fig 11: Simulation Waveform Window
 
